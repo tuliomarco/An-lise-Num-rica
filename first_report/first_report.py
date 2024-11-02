@@ -6,7 +6,7 @@ print("Qual método você deseja testar?"
       "\n9. Número condicão da matriz")
 method = int(input())
 
-if(method in {0, 1, 2, 3}):
+if(method in {1, 2, 3, 4}):
     r = root_finding.Roots()
 elif(method in {5, 6, 7, 8}):
     ls = linear_systems_solutions.LinearSystems()
